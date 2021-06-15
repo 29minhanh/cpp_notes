@@ -1,0 +1,28 @@
+For full credit on each program, please paste your output to the bottom of your program listing as
+a comment and make sure to include your full name at the top of the program as a comment. Also please 
+make sure to format your output properly. For example, include appropriate spacing and blank lines and 
+format money amounts to two decimal places after the decimal point. All homework programs will need to 
+be submitted through Canvas and late homework cannot be accepted for any reason.
+
+Program 1:  You need a program to maintain information about pay raises for employees.
+Each employee's data include their name, their department, their current yearly income, and their raise percentage.
+Assume that the following data is to be used:    
+
+Name	Department	Current Yearly Income	Raise Percentage
+James, Kobe	Accounting	$66111.54	6.6%
+Walton, Lebron	Marketing	$89224.17	4.8%
+Rondo, Luke	Sales	$75123.25	7.4%
+Bryant, Kyle	Sales	$69644.44	5.5%
+Kuzma, Rajon	Marketing	$96222.77	3.9%
+
+Write a C++ program which uses appropriate functions and parameter passing that will perform the following tasks:
+
+Task 1: Allow the user to enter in the data for each employee.  (The user will not enter the $ or % symbols.) 
+Task 2: For each employee, calculate the Raise Amount and the New Pay Amount.
+
+	Raise Amount = Current Yearly Income * Raise Percentage / 100  
+	New Pay Amount = Current Yearly Income + Raise Amount
+
+Task 3: For each employee, print out of their Name, Department, Current Yearly Income, Raise Percentage, Raise Amount, and New Pay Amount.
+Task 4: Calculate and print the total of the current yearly incomes, the total of the raise amounts, and the total of the new pay amounts for the five employees.
+Task 5: Print the average of the Raise Amounts along with the largest and smallest Raise Amounts.
